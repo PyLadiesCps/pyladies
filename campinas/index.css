@@ -6,6 +6,10 @@ h1 {
     font-size: 3em;
 }
 
+a {
+    text-decoration: none;
+}
+
 .header {
     text-align: center;
     background: url(img/background.jpg) no-repeat fixed;
@@ -22,12 +26,26 @@ h1 {
 }
 
 .header .inline-menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1em 5em;
+}
+
+.header .inline-menu a {
     color: #fff;
+    transition: linear 200ms all;
+    -webkit-transition: linear 200ms all;
+    font-weight: 400;
 }
 
 .header .inline-menu li {
     display: inline-block;
     padding: 0 1em;
+}
+
+.header .inline-menu li a:hover {
+    color: #ddd;
 }
 
 .header .inline-menu li:after {
