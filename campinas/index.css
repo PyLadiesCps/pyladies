@@ -1,0 +1,41 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.header {
+    text-align: center;
+    background: url(img/background.jpg) no-repeat fixed;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    padding: 5em;
+}
+
+.header .header-logo {
+    width: 10%;
+}
+
+.header .inline-menu {
+    color: #fff;
+}
+
+.header .inline-menu li {
+    display: inline-block;
+    padding: 0 1em;
+}
+
+.header .inline-menu li:after {
+    content: '';
+    color: #fff;
+}
+
+.header .inline-menu li:last-child:after {
+    content: '';
+    color: #fff;
+}
