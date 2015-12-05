@@ -57,3 +57,11 @@ a {
     content: '';
     color: #fff;
 }
+
+.wrapper {
+    margin: 0 auto -142px; /* the bottom margin is the negative value of the footer's height */
+    position: relative;
+}
+.footer, .push {
+    height: 142px; /* .push must be the same height as .footer */
+}
