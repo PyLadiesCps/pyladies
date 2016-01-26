@@ -6,32 +6,146 @@
     <meta charset="utf-8">
     <meta name="description" content="Site oficial do Pyladies Campinas">
     <meta name="keywords" content="python, pyladies, code, programação, mulheres, computação, campinas, aprender, código">
+
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/css/landing-page.css" rel="stylesheet">
 </head>
 
 <body>
-    <div class="header">
-        <div>
-            <img class="header-logo" src="img/pyladies_head.png">
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div class="container topnav">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand topnav" href="#">PyLadies Campinas</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#about">Início</a>
+                    </li>
+                    <li>
+                        <a href="#events">Eventos</a>
+                    </li>
+                    <li>
+                        <a href="#team">Equipe</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
+        <!-- /.container -->
+    </nav>
 
-        <h1>Pyladies Campinas</h1>
-        <h2>print "hello world"</h2>
+    <a name="about"></a>
+    <div class="intro-header">
+        <div class="container">
 
-        <ul class="inline-menu">
-            <li><a href="#">INÍCIO</a></li>
-            <li><a href="#">EVENTOS</a></li>
-            <li><a href="#">EQUIPE</a></li>
-            <li><a href="#">CONTATO</a></li>
-        </ul>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h1>PyLadies Campinas</h1>
+                        <h3>Colocar um subtítulo aqui</h3>
+                        <hr class="intro-divider">
+                        <ul class="list-inline intro-social-buttons">
+                            <li>
+                                <a href="https://www.facebook.com/pyladiescps" target="blank" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/pyladiescps" target="blank" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/PyLadiesCps" target="blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+    </div>
+
+    <a  name="services"></a>
+    <div class="content-section-a">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Eventos</h2>
+                    <p class="lead">Colocar um textinho aqui assim bem lindo lalala cursos lalala workshops somos 
+                        leagis de verdade, seja nosso amigo</p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <div class="list-group">
+                        <div class="list-group-item">
+                            <h4 class="list-group-item-heading">Campus Party</h4>
+                            <p class="list-group-item-text">aloaloalaoalaoalaoaloalaoalaoalaoalla
+                                laoalaoal laaloalaoalaoa alaoaloalaoala</p>
+                        </div>
+                        <div class="list-group-item">
+                            <h4 class="list-group-item-heading">Hora do Código</h4>
+                            <p class="list-group-item-text">aloaloalaoalaoalaoaloalaoalaoalaoalla
+                                laoalaoal laaloalaoalaoa alaoaloalaoala</p>
+                        </div>
+                        <div class="list-group-item">
+                            <h4 class="list-group-item-heading">Python Brasil</h4>
+                            <p class="list-group-item-text">aloaloalaoalaoalaoaloalaoalaoalaoalla
+                                laoalaoal laaloalaoalaoa alaoaloalaoala</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+    </div>
+
+    <div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <h2 class="section-heading">Equipe</h2>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
 
     </div>
-    <div class="wrapper">
-        <a href="https://fb.com/pyladiescps">Facebook</a>
-        <div class="push"></div>        
-    </div>
-    <div class="footer"></div>
-
-    <link rel="stylesheet" href="index.css" type="text/css" />
 </body>
-
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <ul class="list-inline">
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer-menu-divider">&sdot;</li>
+                    <li>
+                        <a href="#events">Eventos</a>
+                    </li>
+                    <li class="footer-menu-divider">&sdot;</li>
+                    <li>
+                        <a href="#team">Equipe</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </html>
